@@ -8,7 +8,7 @@ In TypeScript, both `interface` and `type` help you define the shape of objects.
 
 ---
 
-### ✅ 1. Extending (Inheritance)
+### 1. Extending (Inheritance)
 
 - **`interface`** uses `extends` to inherit:
 
@@ -36,7 +36,7 @@ type Dog = Animal & {
 
 ---
 
-### ✅ 2. Declaration Merging
+### 2. Declaration Merging
 
 - **`interface`** supports merging. You can define it more than once, and TypeScript will combine the definitions:
 
@@ -54,14 +54,14 @@ interface User {
 
 ---
 
-### ✅ 3. Use Cases
+### 3. Use Cases
 
 - Use **`interface`** when you're defining object shapes, especially with classes or APIs.
 - Use **`type`** when you need to create **unions**, **intersections**, or **advanced types** like tuples and conditional types.
 
 ---
 
-### ✅ 4. Which One Should You Use?
+### 4. Which One Should You Use?
 
 There’s no strict rule, but:
 
@@ -74,7 +74,7 @@ There’s no strict rule, but:
 
 If you're new to TypeScript, you might have come across the `keyof` keyword and wondered what it does. Let me explain it to you in simple terms.
 
-### What is `keyof`? 🤔
+### What is `keyof`?
 
 In TypeScript, **`keyof`** is used to get the type of the **keys** of an object. It returns a **union type** of all the keys in a given type, making your code safer and more flexible.
 
